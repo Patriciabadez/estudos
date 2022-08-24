@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir este sie em vários dispositivos diferentes ou aumente e diminua o tamaho do seu navegadoir</p>
+    
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <!-- <h1> Audios em html5</h1>
+    <p>Vamos reproduzir audios em html5</p>
+    <audio src="midia/As You Fade Away - NEFFEX.mp3" controls autoplay>Audio blalala</audio> -->
+    
+    <p>Outra maneira é:</p>
+
+    <!-- <audio preload="metadata" autoplay controls>
+        <source src="midia/As You Fade Away - NEFFEX.mp3" type="audio/mpeg">
+
+        <p>Tambem podemos utilizar estes dependendo do navegador, porem não baixamos arquivos ogg e wav so que evitar o wav pois ele e pesado demais </p>
+        <source src="midia/As You Fade Away - NEFFEX.ogg" type="audio/ogg">
+        <source src="midia/As You Fade Away - NEFFEX.wav" type="audio/wav">
+    </audio> -->
+
+    
+</body>
+</html>

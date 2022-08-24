@@ -1,0 +1,23 @@
+No terminal:
+
+npm init -y   - cria o arquivo JSON
+
+index.js  - criar pasta
+
+npm i express
+
+ABRIR UMA PAGINA :
+localhost:3000/
+
+no terminal rodar a cada alteração o (node .) ou node index.js
+
+Tipos de envio:
+-no navegador:
+localhost:3000/?name=Patricia
+
+-no json:
+{
+    "nome": "Patricia",
+    "cidade":"Porto Alegre"
+}
+
