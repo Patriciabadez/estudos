@@ -1,0 +1,65 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Álcool ou Gasolina?</title>
+</head>
+<body>
+    <script>
+    const caminhoComGasolinakm = 480;
+        const consumoDeGasolinaLitros = 40;
+        
+        document.write( "o consumo de gasolina é: "+ caminhoComGasolinakm / consumoDeGasolinaLitros +"<br>")
+
+        const caminhoComAlcool = 300;
+        const consumoDeAllcool = 40;
+
+        document.write(" o consumo de alcool é: " + Math.round(caminhoComAlcool / consumoDeAllcool) + "<br>")
+        document.write(" o consumo de alcool é: " + (caminhoComAlcool / consumoDeAllcool) + "<br>")
+
+//         6) Agora um desafio. Hoje, o precoDaGasolina está R$2.90 e o precoDoAlcool
+// R$2.40. Qual é o precoPorKilometro , tanto do álcool quanto da gasolina? Dica:
+// dividindo o preço do litro pelo consumo, temos o preço por quilometro. Qual é
+// o menor deles?
+
+        // const precoGasolina = 2.90;
+        // const precoAlcool = 2.40;
+        // const precoPorKilometroGasolina = (precoGasolina / consumoDeAllcool);
+        // const precoPorKilometroAlcool = (precoAlcool / consumoDeGasolinaLitros);
+
+        // document.write( " O preço por Kilometro do alcool é:" + precoPorKilometroGasolina.toFixed(2) + "<br>");
+        // document.write( " O preço por Kilometro da gasolina é:" + precoPorKilometroAlcool.toFixed(2) + "<br>");
+        // document.write(" o total e:" + total)
+
+        // var pulaLinha = () => {
+        //     // document.write("<br>")
+        //     document.write("<hr>")
+        // }
+        // var ano = 2022;
+
+        // document.write("Eu nasci em: " + (ano - 37));
+        // pulaLinha()
+        // document.write("Adriano masceu em: " + (ano - 26));
+        // pulaLinha()
+        // document.write("Paulo masceu em: " + (ano - 36));
+        // pulaLinha()
+
+        var pulaLinha = () => {
+            // document.write("<br>")
+            document.write("<br><hr><br>")
+        }
+        var mostra = (frase ) => {
+            document.write(frase);
+            pulaLinha()
+        }
+
+        var ano = 2022;
+        mostra("Eu nasci em: " + (ano - 37))
+        mostra("Adriano nasceu em: " +(ano - 26))
+        mostra("Paulo nasceu em: " + ( ano - 32))
+
+
+    </script>
+</body>
+</html>
