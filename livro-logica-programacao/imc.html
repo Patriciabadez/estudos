@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+          var pulaLinha = () => {
+    document.write ("<hr>")
+}
+var mostra = (frase) => {
+    document.write(frase)
+    pulaLinha()
+     
+}
+
+var calculaIMC = (pesoDoUsuario, alturaDoUsuario) => {
+    var imcDoUsuario = pesoDoUsuario / (alturaDoUsuario * alturaDoUsuario)
+    return imcDoUsuario
+
+}
+var nome = prompt("Qual seu nome?")
+var pesoDoUsuario = prompt("Qual é o seu Peso?")
+var alturaDoUsuario = prompt("Qual é a sua altura?")
+
+// 2) Agora, com esses dois dados, fica fácil calcular o IMC do usuário:
+var imcDoUsuario = calculaIMC(alturaDoUsuario, pesoDoUsuario)
+// mostra ("O seu IMC é: " + imcDoUsuario)
+mostra ("Oi, " + nome + " o seu imc é: " + imcDoUsuario)
+
+
+// 3) Altere seu código para perguntar o nome do usuário, usando um prompt , e utili-
+// zar esse nome capturado para perguntar tanto a altura quanto peso
+
+
+// 4) O que acontece se você digitar algo que não é um número quando te perguntarem
+// o peso e a altura? Ou utilizar a vírgula em vez de ponto? Veremos como contornar
+// esses problemas em outras lições
+
+    </script>
+</body>
+</html>
+

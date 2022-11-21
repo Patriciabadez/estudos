@@ -1,0 +1,4 @@
+//style.css
+.img-background {
+    background-image: url("src/img/plano-de-fundo.jpg");
+    }

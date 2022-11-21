@@ -1,0 +1,39 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // var idade = prompt("Quantos anos voce tem?")
+        // var dias = idade * 365
+        // document.write ("Você já viveu " + dias)
+        // var batimentos = dias * 24 * 60 * 80
+        // document.write(" Seu coração ja bateu " + batimentos + " vezes. haja coração")
+
+
+        var calculaDiasDeVida = (idade) => {
+            dias = idade * 365
+            return dias
+
+        }
+        var calculaBatimentos = (dias) => {
+            var batimentos = dias * 24 * 60 * 80
+            return batimentos
+
+        };
+
+        var idade = 36
+        var dias = calculaDiasDeVida(idade)
+        var batimentos = calculaBatimentos(dias)
+        document.write("Seu coração já bateu " + batimentos + "vezes.")
+
+
+    </script>
+</body>
+
+</html>

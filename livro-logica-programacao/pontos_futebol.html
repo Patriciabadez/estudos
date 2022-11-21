@@ -1,0 +1,42 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+var pulaLinha = function() {
+document.write("<br>");
+};
+var mostra = function(frase) {
+document.write(frase);
+pulaLinha();
+};
+
+var vitorias = prompt("Quantos jogos o CDC Futebol Clube venceu?");
+var empates = prompt("Quantos jogos o CDC Futebol Clube empatou?");
+
+var vitorias = prompt("Quantos jogos o CDC Futebol Clube venceu?");
+var empates = prompt("Quantos jogos o CDC Futebol Clube empatou?");
+var pontos = (vitorias * 3) + parseInt(empates);
+if(pontos > 28) {
+mostra("Nosso time está indo MELHOR que o Livros Velhos!");
+
+
+}
+if(pontos < 28) {
+mostra("Nosso time está indo PIOR que o Livros Velhos!");
+}
+if(pontos == 28) {
+mostra("Nosso time está EMPATADO com o Livros Velhos!");
+}
+
+    </script>
+</body>
+
+</html>
